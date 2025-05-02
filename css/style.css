@@ -1,0 +1,142 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: rgb(0, 0, 0);
+    --blue-color: rgb(67, 143, 248);
+    --green-color: #48cc48;
+    --gray-color: rgb(100, 100, 100);
+    --brown-color: rgb(110, 66, 8);
+    --yellow-color: rgb(234, 234, 32);
+    --purple-color: rgb(97, 7, 224);
+    --red-color: rgb(221, 39, 39);
+    --orange-color: rgb(255, 138, 36);
+    --pink-color: rgb(244, 144, 204);
+    --gap: 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.azul {
+    color: rgb(4, 4, 70);
+    background-color: var(--blue-color, #ffffff);
+}
+
+.amarelo {
+    color: rgb(97, 37, 3);
+    background-color: var(--yellow-color);
+}
+
+
+.vermelho {
+    color: rgb(62, 4, 4);
+    background-color: var(--red-color, #ffffff);
+}
+
+
+.laranja {
+    color: rgb(70, 30, 4);
+    background-color: var(--orange-color, #ffffff);
+}
+
+
+.rosa {
+    color: rgb(70, 4, 52);
+    background-color: var(--pink-color, #ffffff);
+}
+
+
+.roxo {
+    color: rgb(20, 2, 35);
+    background-color: var(--purple-color, #ffffff);
+}
+
+
+.preto {
+    color: rgb(255, 255, 255);
+    background-color: var(--black-color, #ffffff);
+}
+
+
+.branco {
+    color: rgb(0, 0, 0);
+    background-color: var(--white-color, #ffffff);
+}
+
+
+.cinza {
+    color: rgb(23, 23, 23);
+    background-color: var(--gray-color, #ffffff);
+}
+
+
+.marrom {
+    color: rgb(23, 14, 2);
+    background-color: var(--brown-color, #ffffff);
+}
+
+.verde {
+    color: rgb(2, 64, 5);
+    background-color: var(--green-color);
+}
+
+
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+/* styles.css */
+section {
+    min-height: 100vh;
+    /* cobre toda a altura da tela */
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 4rem;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.album-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.album-item p {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
