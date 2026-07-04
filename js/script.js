@@ -295,12 +295,12 @@ const PEOPLE = [
                 title: "Flower of the Soul"
             },
             "08": {
-                file: "08-galcosta.png",
-                title: "Gal Costa"
+                file: "08,14-theglowpt2.png",
+                title: "The Glow Pt. 2"
             },
             "09": {
-                file: "09,14-theglowpt2.png",
-                title: "The Glow Pt. 2"
+                file: "09-galcosta.png",
+                title: "Gal Costa"
             },
             "10": {
                 file: "10-themoneystore.png",
@@ -319,7 +319,7 @@ const PEOPLE = [
                 title: "Recital na Boite Barroco"
             },
             "14": {
-                file: "09,14-theglowpt2.png",
+                file: "08,14-theglowpt2.png",
                 title: "The Glow Pt. 2"
             }
         }
@@ -500,7 +500,7 @@ const PEOPLE = [
                 title: "Ultraviolence"
             },
             "12": {
-                file: "12-everybodyelseisdoingitso.png",
+                file: "12-everybodyelseisdoingit,sowhycantwe.png",
                 title: "Everybody Else Is Doing It..."
             },
             "13": {
