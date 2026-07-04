@@ -110,7 +110,7 @@ main {
 
     color: #bdbdbd;
 
-    font-size: .82rem;
+    font-size: 1rem;
 
     font-weight: 500;
 
@@ -181,7 +181,7 @@ main {
 
 .slide h2 {
 
-    font-size: 3.2rem;
+    font-size: 5rem;
 
     font-weight: 800;
 
@@ -254,7 +254,9 @@ main {
 
     justify-content: center;
 
-    gap: 35px;
+    column-gap: 250px;
+
+    row-gap: 20px;
 
     justify-items: center;
 
@@ -286,7 +288,7 @@ main {
 
 .album-card img {
 
-    width: 180px;
+    width: 300px;
 
     aspect-ratio: 1;
 
@@ -312,7 +314,7 @@ main {
 
     margin-top: 18px;
 
-    font-size: 1rem;
+    font-size: 1.7rem;
 
     font-weight: 600;
 
@@ -322,7 +324,7 @@ main {
 
     margin-top: 8px;
 
-    font-size: .83rem;
+    font-size: 1.2rem;
 
     color: rgba(255, 255, 255, .75);
 
